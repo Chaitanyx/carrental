@@ -11,7 +11,7 @@
             <div class="header_widgets">
               <div class="circle_icon"> <i class="fa fa-envelope" aria-hidden="true"></i> </div>
               <p class="uppercase_text">For Support Mail us : </p>
-              <a href="mailto:info@example.com">codeprojectsorg@gmail.com</a> </div>
+              <a href="mailto:info@example.com">rentaldrives@gmail.com</a> </div>
             <div class="header_widgets">
               <div class="circle_icon"> <i class="fa fa-phone" aria-hidden="true"></i> </div>
               <p class="uppercase_text">Service Helpline Call Us: </p>
@@ -32,7 +32,7 @@
 <?php }
 else{
 
-echo "Welcome To Car rental portal";
+echo "Welcome To Car rental User portal";
  } ?>
           </div>
         </div>
@@ -94,9 +94,9 @@ foreach($results as $result)
       <div class="collapse navbar-collapse" id="navigation">
         <ul class="nav navbar-nav">
           <li><a href="index.php">Home</a>    </li>
-
           <li><a href="page.php?type=aboutus">About Us</a></li>
           <li><a href="car-listing.php">Car Listing</a>
+          <li><a href="admin/index.php">Own a Car</a>
           <li><a href="page.php?type=faqs">FAQs</a></li>
           <li><a href="contact-us.php">Contact Us</a></li>
 
