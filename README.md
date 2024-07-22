@@ -5,7 +5,7 @@ USER    username :test@gmail.com
 
 
 ADMIN   username:admin
-        password:Test@12345 
+        password:1234
 
 
 
