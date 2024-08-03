@@ -79,7 +79,7 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
           </div>
         </div>
         <div class="col-md-6 col-md-pull-6">
-          <p class="copy-right">Copyright &copy; 2017 Car Rental Portal. Brought To You By <a href="https://code-projects.org/">Code-Projects</a></p>
+          <p class="copy-right">Copyright &copy; 2024 CarX Rental Portal. Brought To You By <a href="https://github.com/Chaitanyx/carrental">Chaitanyx</a></p>
         </div>
       </div>
     </div>
