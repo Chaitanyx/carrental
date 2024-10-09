@@ -1,7 +1,8 @@
 <?php 
 session_start();
 include('includes/config.php');
-error_reporting(0);
+error_reporting(E_ALL);
+ini_set('display_errors', 0);
 ?>
 
 <!DOCTYPE HTML>
@@ -81,10 +82,13 @@ error_reporting(0);
           <div class="sorting-count">
 <?php 
 //Query for Listing count
-$sql = "SELECT id from tblvehicles";
-$query = $dbh -> prepare($sql);
-$query->bindParam(':vhid',$vhid, PDO::PARAM_STR);
-$query->execute();
+$sql = "SELECT id FROM tblvehicles"; 
+$query = $dbh->prepare($sql); 
+$query->execute(); // Execute the query
+$results = $query->fetchAll(PDO::FETCH_OBJ); // Fetch results
+$cnt = $query->rowCount(); // Count of results
+?>
+<p><span><?php echo htmlentities($cnt); ?> Listings</span></p>
 $results=$query->fetchAll(PDO::FETCH_OBJ);
 $cnt=$query->rowCount();
 ?>
