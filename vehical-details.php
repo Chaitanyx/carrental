@@ -124,7 +124,7 @@ $_SESSION['brndid']=$result->bid;
       </div>
       <div class="col-md-3">
         <div class="price_info">
-          <p>$<?php echo htmlentities($result->PricePerDay);?> </p>Per Day
+          <p>₹<?php echo htmlentities($result->PricePerDay);?> </p>Per Day
          
         </div>
       </div>
@@ -381,7 +381,7 @@ foreach($results as $result)
             </div>
             <div class="product-listing-content">
               <h5><a href="vehical-details.php?vhid=<?php echo htmlentities($result->id);?>"><?php echo htmlentities($result->BrandName);?> , <?php echo htmlentities($result->VehiclesTitle);?></a></h5>
-              <p class="list-price">$<?php echo htmlentities($result->PricePerDay);?></p>
+              <p class="list-price">₹<?php echo htmlentities($result->PricePerDay);?></p>
           
               <ul class="features_list">
                 
